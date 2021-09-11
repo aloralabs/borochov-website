@@ -2,42 +2,11 @@
 
 {% block content %}
 
-
     <main class="overflow-x-hidden bg-white">
         <!-- top section of the page -->
         <div class="px-6 py-4 text-gray-600 bg-white lg:px-8 lg:py-5">
 
-            <!-- header -->
-            <header class="relative z-50 flex items-center justify-between max-w-screen-xl mx-auto" x-data="{ mobileMenu: false}">
-                <a href="#" class="flex-shrink-0 block">
-                    <img class="h-9" src="../../images/meeting/drops-logo-blue.svg" alt="logo placeholder">
-                </a>
-                <div class="flex justify-between space-x-4 md:space-x-10 flex-shrink-1 md:flex-grow-0">
-                    <nav class="absolute left-0 flex-col items-center justify-center hidden w-full p-8 space-y-4 font-semibold bg-gray-200 md:flex md:p-0 md:space-y-0 md:flex-row md:space-x-4 lg:space-x-8 top-16 md:top-0 md:w-auto md:relative md:bg-transparent">
-                        <a href="#" class="hover:opacity-70">Home</a>
-                        <a href="#" class="hover:opacity-70">Services</a>
-                        <a href="#" class="hover:opacity-70">Pricing</a>
-                        <a href="#" class="hover:opacity-70">Blog</a>
-                        <a href="#" class="hover:opacity-70">Contact</a>
-                    </nav>
-
-                    <button class="relative z-30 block p-2 text-gray-200 bg-gray-600 rounded-md w-9 md:hidden" @click="mobileMenu = !mobileMenu">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
-                        </svg>
-                    </button>
-                    <div x-show="mobileMenu" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" class="absolute inset-x-0 z-50 w-full py-2 origin-top-right transform top-9 ransition md:hidden">
-                        <nav class="p-3 transform -translate-x-4 bg-white rounded-lg shadow-lg">
-                            <a href="#" class="block px-6 py-3 font-semibold border-b hover:opacity-70 border-blue-50">Home</a>
-                            <a href="#" class="block px-6 py-3 font-semibold border-b hover:opacity-70 border-blue-50">Services</a>
-                            <a href="#" class="block px-6 py-3 font-semibold border-b hover:opacity-70 border-blue-50">Pricing</a>
-                            <a href="#" class="block px-6 py-3 font-semibold border-b hover:opacity-70 border-blue-50">Blog</a>
-                            <a href="#" class="block px-6 py-3 font-semibold border-b hover:opacity-70 border-blue-50">Contact</a>
-                        </nav>
-                    </div>
-                </div>
-            </header>
-            <!--/ header -->
+            {% include "partials/header.html" %}
 
             <!-- hero -->
             <div class="grid max-w-screen-xl grid-cols-2 gap-8 py-6 mx-auto lg:gap-24 md:items-center md:py-12 lg:py-20">
