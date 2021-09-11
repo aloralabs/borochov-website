@@ -2,6 +2,7 @@
   "files.exclude": {
     ".netlify": true,
     "node_modules": true,
-    "**/processed_images": true
+    "**/processed_images": true,
+    "public": true
   }
 }
