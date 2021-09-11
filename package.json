@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "tailwind -i styles/main.css -o static/main.css -m",
+    "watch": "tailwind -i styles/main.css -o static/main.css -w"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.15"
+  }
+}
