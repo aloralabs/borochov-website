@@ -3,3 +3,5 @@ public
 .DS_Store
 static/processed_images
 static/main.css
+# Local Netlify folder
+.netlify
