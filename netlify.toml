@@ -4,6 +4,3 @@ command = "npm run build && zola build"
 
 [build.environment]
 ZOLA_VERSION = "0.14.1"
-
-[context.deploy-preview]
-command = "zola build"
