@@ -1,19 +1,19 @@
 [[rooms]]
 name = "Main Hall"
-size = "42'x70' &bullet; 940ft&sup2;"
-seating = "249 banquet style, 366 theatre style"
+size = "42'x70'<br>940ft&sup2;"
+seating = "249 banquet style<br>366 theatre style"
 
 [[rooms]]
 name = "Lobby"
-size = "18'x20' &bullet; 720ft&sup2;"
+size = "18'x20'<br>720ft&sup2;"
 seating = "40 reception style"
 
 [[rooms]]
 name = "Room #2"
-size = "22'x43' &bullet; 946ft&sup2;"
-seating = "60 banquet style, 100 theatre style"
+size = "22'x43'<br>946ft&sup2;"
+seating = "60 banquet style<br>100 theatre style"
 
 [[rooms]]
 name = "Boardroom"
-size = "17'3\"x 21'7\" &bullet; 372ft&sup2;"
+size = "17'3\"x 21'7\"<br>372ft&sup2;"
 seating = "25 conference style"
