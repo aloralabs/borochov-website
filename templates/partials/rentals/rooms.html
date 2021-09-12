@@ -23,7 +23,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                {% set data = load_data(path="rooms.toml") %}
+                                {% set data = load_data(path=current_path~"rooms.toml") %}
                                 {% for r in data.rooms -%}
                                 <tr class="bg-white">
                                     <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
