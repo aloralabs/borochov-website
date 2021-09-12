@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Kol Yisroel Congregation</title>
+    <title>{% if page.title %}{% block title %}{% endblock title %} | {% endif %}{{ config.title }}</title>
     <link rel="stylesheet" href="{{ get_url(path='main.css', cachebust=true) }}">
     <link rel=icon type=image/svg+xml href=/logo.svg>
 </head>
