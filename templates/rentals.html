@@ -3,10 +3,7 @@
 {% block content %}
 
 <main>
-    <!-- top section of the page -->
     <div class="px-6 py-4 text-gray-600 bg-white lg:px-8 lg:py-5">
-
-        <!-- hero -->
         <div class="grid max-w-screen-xl grid-cols-2 gap-8 py-6 mx-auto lg:gap-24 md:items-center md:py-12 lg:py-20">
             <div class="relative z-20 order-2 col-span-2 md:col-span-1 md:order-1">
                 <h2 class="mb-6 text-2xl font-medium text-gray-800 sm:text-3xl lg:text-4xl xl:text-7xl">Host your next event here</h2>
@@ -20,21 +17,9 @@
                     {% set image = resize_image(path=current_path~"Ext1.jpg", width=600, op="fit_width") %}
                     <img src="{{ image.url }}" loading="lazy" draggable="false" class="rounded-lg z-20 relative">
                 </picture>
-
             </div>
         </div>
-        <!--/ hero -->
-
     </div>
-    <!--/ top section of the page -->
-
-    <!-- call out -->
-    <div class="relative z-20 px-6 pt-6 text-gray-600 lg:px-8 md:pt-12 md:pb-6">
-        <div class="max-w-4xl mx-auto">
-            <h2 class="text-2xl font-medium text-center text-gray-700 sm:text-3xl lg:text-4xl xl:text-5xl">Discover how drops. will help your work better with your team and colleagues.</h2>
-        </div>
-    </div>
-    <!--/ call out -->
 
     {% include "partials/rentals/rooms.html" %}
 
