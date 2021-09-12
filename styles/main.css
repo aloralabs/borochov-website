@@ -2,6 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+body {
+    touch-action: pan-x pan-y;
+}
+
 .divider {
     @apply bg-yellow-500 pt-1 mt-3 mb-4 w-20;
 }
