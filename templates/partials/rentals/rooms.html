@@ -1,50 +1,38 @@
 <div class="px-6 pt-12 pb-20 text-gray-600 bg-blue-900 lg:px-8 lg:pt-32 lg:pb-32">
     <div class="max-w-screen-xl mx-auto">
         <h2 class="big-heading text-white">Available Rooms</h2>
-        <div class="flex flex-col my-6">
-            <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
-                <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
-                    <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
-                        <table class="min-w-full divide-y divide-gray-200">
-                            <thead class="bg-gray-50">
-                                <tr>
-                                    <th scope="col" class="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">
-                                        Room
-                                    </th>
-                                    <th scope="col" class="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">
-                                        Area
-                                    </th>
-                                    <th scope="col" class="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">
-                                        Dimensions
-                                    </th>
-                                    <th scope="col" class="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">
-                                        Capacity
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {% set data = load_data(path=current_path~"rooms.toml") %}
-                                {% for r in data.rooms -%}
-                                <tr class="bg-white odd:bg-yellow-50">
-                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                                        {{ r.name }}
-                                    </td>
-                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                        {{ r.area }}
-                                    </td>
-                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                        {{ r.dimensions }}
-                                    </td>
-                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                        {{ r.seating }}
-                                    </td>
-                                </tr>
-                                {%- endfor %}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
+        <div class="shadow overflow-scroll lg:overflow-hidden border-b border-gray-200 sm:rounded-lg my-6 max-w-screen-lg">
+            <table class="min-w-full divide-y divide-gray-200">
+                <thead class="bg-gray-50">
+                    <tr>
+                        <th scope="col" class="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">
+                            Room
+                        </th>
+                        <th scope="col" class="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">
+                            Size
+                        </th>
+                        <th scope="col" class="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">
+                            Capacity
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% set data = load_data(path=current_path~"rooms.toml") %}
+                    {% for r in data.rooms -%}
+                    <tr class="bg-white odd:bg-yellow-50">
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                            {{ r.name | safe }}
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                            {{ r.size | safe }}
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                            {{ r.seating | safe }}
+                        </td>
+                    </tr>
+                    {%- endfor %}
+                </tbody>
+            </table>
         </div>
         <ul class="text-blue-100 list-disc list-inside text-lg mb-6">
             <li>Regular room rental hours are from 9:00am to 10:00pm</li>
