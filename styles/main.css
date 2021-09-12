@@ -17,3 +17,7 @@ body {
 .subheading {
     @apply text-xl lg:text-2xl;
 }
+
+.px-default {
+    @apply px-4 sm:px-6 lg:px-8;
+}

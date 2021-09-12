@@ -1,4 +1,4 @@
-<div class="px-6 py-4 text-gray-600 bg-white lg:px-8 lg:py-5">
+<div class="py-4 text-gray-600 bg-white px-default lg:py-5">
     <div class="grid max-w-screen-xl grid-cols-2 gap-8 py-6 mx-auto lg:gap-24 md:items-center md:py-12 lg:py-20">
         <div class="relative z-20 order-2 col-span-2 md:col-span-1 md:order-1">
             <h2 class="mb-6 text-gray-800 big-heading font-semibold">Host your next event here</h2>
@@ -12,12 +12,12 @@
                 </span>
             </a>
         </div>
-        <div class="relative flex flex-row items-center justify-center order-1 col-span-2 space-x-2 md:col-span-1 md:order-2">
+        <div class="relative order-1 col-span-2 space-x-2 md:col-span-1 md:order-2">
             <picture>
                 {% set image = resize_image(path=current_path~"Ext1.jpg", width=600, op="fit_width", format="webp") %}
                 <source srcset="{{ image.url }}" type="image/webp">
                 {% set image = resize_image(path=current_path~"Ext1.jpg", width=600, op="fit_width") %}
-                <img src="{{ image.url }}" loading="lazy" draggable="false" class="rounded-lg z-20 relative">
+                <img src="{{ image.url }}" loading="lazy" draggable="false" class="rounded-lg w-full">
             </picture>
             </dv>
         </div>
