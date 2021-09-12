@@ -1,3 +1,15 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+.divider {
+    @apply bg-yellow-500 pt-1 mt-3 mb-4 w-20;
+}
+
+.big-heading {
+    @apply text-2xl sm:text-3xl lg:text-4xl xl:text-6xl;
+}
+
+.subheading {
+    @apply text-xl lg:text-2xl;
+}
