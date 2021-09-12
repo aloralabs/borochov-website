@@ -1,0 +1,23 @@
+[[rooms]]
+name = "Main Hall Ballroom"
+area = "2940"
+dimensions = "42'x70'"
+seating = "249 banquet style, 366 theatre style"
+
+[[rooms]]
+name = "Lobby"
+area = "720"
+dimensions = "18'x20'"
+seating = "40 reception style"
+
+[[rooms]]
+name = "Room #2"
+area = "946"
+dimensions = "22'x43'"
+seating = "60 banquet style, 100 theatre style"
+
+[[rooms]]
+name = "Boardroom"
+area = "372"
+dimensions = "17'3\"x 21'7\""
+seating = "25 conference style"
