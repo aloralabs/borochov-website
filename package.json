@@ -1,11 +1,14 @@
 {
   "scripts": {
     "build": "tailwind -i styles/main.css -o static/main.css -m",
-    "watch": "tailwind -i styles/main.css -o static/main.css -w"
+    "watch:tailwind": "tailwind -i styles/main.css -o static/main.css -w",
+    "watch:zola": "zola serve",
+    "watch": "concurrently 'npm:watch:*'"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.4.1",
     "autoprefixer": "^10.3.4",
+    "concurrently": "^6.2.1",
     "postcss": "^8.3.6",
     "tailwindcss": "^2.2.15"
   }
