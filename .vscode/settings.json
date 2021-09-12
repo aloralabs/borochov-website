@@ -4,5 +4,9 @@
     "node_modules": true,
     "**/processed_images": true,
     "public": true
-  }
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": true
+  },
 }

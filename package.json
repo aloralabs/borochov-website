@@ -4,6 +4,7 @@
     "watch": "tailwind -i styles/main.css -o static/main.css -w"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.4.1",
     "autoprefixer": "^10.3.4",
     "postcss": "^8.3.6",
     "tailwindcss": "^2.2.15"

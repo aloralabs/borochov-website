@@ -1,0 +1,65 @@
+<div class="px-6 pt-12 pb-20 text-gray-600 bg-blue-900 lg:px-8 lg:pt-32 lg:pb-32">
+    <div class="max-w-screen-xl mx-auto">
+        <h2 class="text-2xl font-medium text-white sm:text-3xl lg:text-4xl xl:text-6xl">Available Rooms</h2>
+        <div class="flex flex-col my-6">
+            <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+                <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
+                    <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+                        <table class="min-w-full divide-y divide-gray-200">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Room
+                                    </th>
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Area
+                                    </th>
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Dimensions
+                                    </th>
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Capacity
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% set data = load_data(path="rooms.toml") %}
+                                {% for r in data.rooms -%}
+                                <tr class="bg-white">
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                                        {{ r.name }}
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                        {{ r.area }}
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                        {{ r.dimensions }}
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                        {{ r.seating }}
+                                    </td>
+                                </tr>
+                                {%- endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="text-blue-100 list-disc list-inside text-lg mb-6">
+            <li>Regular room rental hours are from 9:00am to 10:00pm</li>
+            <li>Rental available &half; day (4 hours or less) or full day (more than 4 hours)</li>
+            <li>Wheel chair accessible</li>
+            <li>$100 non-refundable security deposit required</li>
+            <li>Indemnity & insurance required (insurance does not apply to a one-time event)</li>
+        </ul>
+        <a href="/#contact" class="inline-flex px-5 py-4 space-x-3 font-semibold text-white bg-yellow-500 rounded-lg lg:px-8 xl:px-12">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+            <span>
+                Contact us
+            </span>
+        </a>
+    </div>
+</div>
