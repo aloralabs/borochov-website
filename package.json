@@ -1,9 +1,9 @@
 {
   "scripts": {
     "build": "tailwind -i styles/main.css -o static/main.css -m",
-    "watch:tailwind": "tailwind -i styles/main.css -o static/main.css -w",
-    "watch:zola": "zola serve",
-    "watch": "concurrently 'npm:watch:*'"
+    "watch-tailwind": "tailwind -i styles/main.css -o static/main.css -w",
+    "watch-zola": "zola serve",
+    "watch": "concurrently -n 'zola,tailwind' -c 'bgBlue.bold,bgMagenta.bold' 'npm:watch-zola' 'npm:watch-tailwind'"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.4.1",
