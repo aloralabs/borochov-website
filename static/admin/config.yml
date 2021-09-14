@@ -4,11 +4,13 @@ backend:
 media_folder: static
 public_folder: /
 collections:
-  - name: 'content'
-    label: 'Content'
-    folder: 'content'
+  - name: "content"
+    label: "Content"
+    folder: "content"
     create: false
     editor:
       preview: false
     fields:
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
