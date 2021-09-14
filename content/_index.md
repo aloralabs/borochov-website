@@ -18,8 +18,6 @@ Welcome to KOL YISROEL CONGREGATION where we offer all that and much more!
 
 Kol Yisroel Congregation strives to make the joy of Jewish living accessible and relevant to all.
 
-The Borochov Cultural Centre, in the heart of Bathurst Manor, was established over 40 years ago and houses Kol Yisroel.  A conservative egalitarian congregation, Kol Yisroel, was started in 1991 by Julius Sokoloff and David Newman.
-
 Our congregation meets for Rosh Chodesh and other major holidays. Click here to see our schedule.
 
 We welcome and enjoy Bar/Bat Mitzvahs, baby namings and other family celebrations. High Holiday Services are also conducted.

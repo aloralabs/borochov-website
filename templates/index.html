@@ -29,7 +29,7 @@
                 <h2 class="leading-6 text-yellow-600 font-semibold tracking-wide uppercase">Get Involved</h2>
                 <h3 class="mt-2 text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl">About Us</h3>
                 <div class="mt-5 prose prose-indigo text-gray-500">
-                    <p>Our congregation looks forward to welcoming you into our midst. If you and your family are planning a celebration of any kind, we would be happy to help make it a unique and memorable event.</p>
+                    <p>The Borochov Cultural Centre, in the heart of Bathurst Manor, was established over 40 years ago and houses Kol Yisroel. A conservative egalitarian congregation, Kol Yisroel, was started in 1991 by Julius Sokoloff and David Newman.</p>
                     <p>Kol Yisroel practices Conservative Judaism and strives to enhance the cultural, religious and spiritual needs of its multigenerational congregation. We are dedicated to Jewish traditions, customs, values and culture to make Judaism more meaningful in a family friendly atmosphere.</p>
                     <h3>Our Values</h3>
                     <ol>
@@ -39,7 +39,7 @@
                         <li>We value an atmosphere of warmth and acceptance and believe in sharing the richness of the full spectrum of synagogue life.</li>
                         <li>We love and support Israel as the Jewish homeland.</li>
                     </ol>
-                    <p>Come join us and experience Kol Yisroel for yourself.</p>
+                    <p>Come join us and experience Kol Yisroel for yourself. Our congregation looks forward to welcoming you into our midst.</p>
                 </div>
             </div>
         </div>
@@ -47,5 +47,11 @@
 </div>
 
 {% include "partials/contact.html" %}
+
+<div class="py-20 bg-gray-50">
+    <div class="container mx-auto px-default prose max-w-7xl">
+        {{ section.content | safe }}
+    </div>
+</div>
 
 {% endblock content %}
