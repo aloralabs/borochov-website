@@ -5,10 +5,16 @@ module.exports = {
     },
     darkMode: false, // or 'media' or 'class'
     theme: {
-        extend: {},
+        extend: {
+            transitionProperty: {
+                'footer': 'color, filter'
+            }
+        },
     },
     variants: {
-        extend: {},
+        extend: {
+            transitionProperty: ['hover']
+        },
     },
     plugins: [require("@tailwindcss/typography")],
 };
