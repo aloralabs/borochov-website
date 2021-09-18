@@ -1,0 +1,33 @@
+<div class="relative bg-gray-50">
+    <div class="lg:absolute lg:inset-0">
+        <div class="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
+            <picture>
+                {% set image = resize_image(path=current_path~"Ext2.jpg", width=1500, height=750, op="fill", format="webp") %}
+                <source srcset="{{ image.url | safe }}" type="image/webp">
+                {% set image = resize_image(path=current_path~"Ext2.jpg", width=1500, height=750, op="fill") %}
+                <img src="{{ image.url | safe }}" width="1500" height="750" loading="lazy" draggable="false" class="h-56 w-full object-cover lg:absolute lg:h-full">
+            </picture>
+        </div>
+    </div>
+    <div class="relative pt-12 pb-16 sm:pt-16 px-default lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
+        <div class="lg:col-start-2 lg:pl-8">
+            <div class="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
+                <div class="leading-6 text-yellow-500 font-semibold tracking-wide uppercase">Get Involved</div>
+                <h2 class="heading text-gray-800">About Us</h2>
+                <div class="mt-5 prose prose-indigo text-gray-500">
+                    <p>The Borochov Cultural Centre, in the heart of Bathurst Manor, was established over 40 years ago and houses Kol Yisroel. A conservative egalitarian congregation, Kol Yisroel, was started in 1991 by Julius Sokoloff and David Newman.</p>
+                    <p>Kol Yisroel practices Conservative Judaism and strives to enhance the cultural, religious and spiritual needs of its multigenerational congregation. We are dedicated to Jewish traditions, customs, values and culture to make Judaism more meaningful in a family friendly atmosphere.</p>
+                    <h2>Our Values</h2>
+                    <ol>
+                        <li>We value the principles, ethics and ideals of Conservative Egalitarian Judaism and are committed to preserving these values for future generations.</li>
+                        <li>We recognize the importance of the synagogue’s religious and spiritual purpose.</li>
+                        <li>We value everyone in the congregation equally.</li>
+                        <li>We value an atmosphere of warmth and acceptance and believe in sharing the richness of the full spectrum of synagogue life.</li>
+                        <li>We love and support Israel as the Jewish homeland.</li>
+                    </ol>
+                    <p>Come join us and experience Kol Yisroel for yourself. Our congregation looks forward to welcoming you into our midst.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
