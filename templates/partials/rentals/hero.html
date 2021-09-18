@@ -1,6 +1,6 @@
-<div class="py-4 text-gray-600 bg-white px-default lg:py-5">
-    <div class="grid max-w-screen-xl grid-cols-2 gap-8 py-6 mx-auto lg:gap-24 md:items-center md:py-12 lg:py-20">
-        <div class="relative z-20 order-2 col-span-2 md:col-span-1 md:order-1">
+<main class="lg:relative">
+    <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
+        <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
             <h2 class="text-gray-800 heading-lg">Host your next event here</h2>
             <p class="mb-6 text-gray-500 subheading">We welcome and enjoy Bar & Bat Mitzvahs, baby namings and other family celebrations</p>
             <a href="/#contact" class="inline-flex space-x-3 button-main">
@@ -12,14 +12,13 @@
                 </span>
             </a>
         </div>
-        <div class="relative order-1 col-span-2 space-x-2 md:col-span-1 md:order-2">
-            <picture>
-                {% set image = resize_image(path=current_path~"Ext1.jpg", width=600, op="fit_width", format="webp") %}
-                <source srcset="{{ image.url }}" type="image/webp">
-                {% set image = resize_image(path=current_path~"Ext1.jpg", width=600, op="fit_width") %}
-                <img src="{{ image.url }}" loading="lazy" draggable="false" class="rounded-lg w-full">
-            </picture>
-            </dv>
-        </div>
     </div>
-</div>
+    <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
+        <picture>
+            {% set image = resize_image(path=current_path~"Ext1.jpg", width=1500, height=1000, op="fill", format="webp") %}
+            <source srcset="{{ image.url }}" type="image/webp">
+            {% set image = resize_image(path=current_path~"Ext1.jpg", width=1500, height=1000, op="fill") %}
+            <img src="{{ image.url }}" width="" height="" loading="lazy" draggable="false" class="absolute inset-0 w-full h-full object-cover">
+        </picture>
+    </div>
+</main>
