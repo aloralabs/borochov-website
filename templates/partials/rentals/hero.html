@@ -15,9 +15,9 @@
     </div>
     <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
         <picture>
-            {% set image = resize_image(path=current_path~"Ext1.jpg", width=1500, height=1000, op="fill", format="webp") %}
+            {% set image = resize_image(path=current_path~"Ext1.jpg", width=1200, height=800, op="fill", format="webp") %}
             <source srcset="{{ image.url }}" type="image/webp">
-            {% set image = resize_image(path=current_path~"Ext1.jpg", width=1500, height=1000, op="fill") %}
+            {% set image = resize_image(path=current_path~"Ext1.jpg", width=1200, height=800, op="fill") %}
             <img src="{{ image.url }}" width="{{ image.width }}" height="{{ image.height }}" loading="lazy" draggable="false" class="absolute inset-0 w-full h-full object-cover">
         </picture>
     </div>
