@@ -3,7 +3,7 @@ module.exports = {
     purge: {
         content: ["./templates/**/*.html"],
     },
-    darkMode: false, // or 'media' or 'class'
+    darkMode: false,
     theme: {
         extend: {
             transitionProperty: {
