@@ -18,7 +18,7 @@
             {% set image = resize_image(path=current_path~"Ext1.jpg", width=1500, height=1000, op="fill", format="webp") %}
             <source srcset="{{ image.url }}" type="image/webp">
             {% set image = resize_image(path=current_path~"Ext1.jpg", width=1500, height=1000, op="fill") %}
-            <img src="{{ image.url }}" width="" height="" loading="lazy" draggable="false" class="absolute inset-0 w-full h-full object-cover">
+            <img src="{{ image.url }}" width="{{ image.width }}" height="{{ image.height }}" loading="lazy" draggable="false" class="absolute inset-0 w-full h-full object-cover">
         </picture>
     </div>
 </main>

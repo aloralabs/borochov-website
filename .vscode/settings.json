@@ -3,7 +3,7 @@
     ".netlify": true,
     "node_modules": true,
     "**/processed_images": true,
-    "static/main.css": true,
+    "static/*.css": true,
     "public": true
   },
   "[html]": {

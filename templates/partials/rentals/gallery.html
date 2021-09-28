@@ -12,7 +12,7 @@
                     {% set img = resize_image(path=asset, width=900, height=600, op="fill", format="webp") %}
                     <source srcset="{{ img.url }}" type="image/webp">
                     {% set img = resize_image(path=asset, width=900, height=600, op="fill") %}
-                    <img src="{{ img.url }}" loading="lazy" draggable="false">
+                    <img src="{{ img.url }}" width="{{ img.width }}" height="{{ img.height }}" loading="lazy" draggable="false">
                 </picture>
             </div>
             {%- endif %}

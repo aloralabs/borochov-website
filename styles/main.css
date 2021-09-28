@@ -30,12 +30,17 @@ body {
     @apply text-white bg-yellow-500 hover:bg-yellow-600 font-semibold rounded-lg px-5 py-4 lg:px-8 xl:px-12 shadow-sm transition-colors duration-200;
 }
 
-.prose a:hover {
-    @apply transition duration-200 border-opacity-100;
+.prose a:hover,
+.styled-link:hover {
+    @apply border-opacity-100;
 }
 
-.prose a {
-    text-decoration: none;
-    padding-bottom: 2px;
-    @apply border-yellow-500 border-b-2 border-opacity-30;
+.prose a,
+.styled-link {
+    text-decoration-color: rgba(245, 158, 11, var(--tw-border-opacity));
+    text-underline-offset: 3px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    transition-property: text-decoration-color;
+    @apply border-opacity-30 duration-200;
 }
