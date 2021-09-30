@@ -18,7 +18,7 @@
                 </thead>
                 <tbody>
                     {% set data = load_data(path=current_path~"rooms.toml") %}
-                    {% for r in data.rooms -%}
+                    {% for r in data.rooms %}
                     <tr class="bg-white odd:bg-yellow-50">
                         <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-500">
                             {{ r.name | safe }}
@@ -30,7 +30,7 @@
                             {{ r.seating | safe }}
                         </td>
                     </tr>
-                    {%- endfor %}
+                    {% endfor %}
                 </tbody>
             </table>
         </div>
