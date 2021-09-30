@@ -10,9 +10,11 @@
     <link rel=icon type=image/svg+xml href="{{ get_url(path='images/logo.svg') }}">
 </head>
 
-<body>
+<body class="min-h-screen flex flex-col">
     {% include "partials/header.html" %}
-    {% block content %}{% endblock content %}
+    <main class="flex-grow">
+        {% block content %}{% endblock content %}
+    </main>
     {% include "partials/footer.html" %}
 </body>
 
