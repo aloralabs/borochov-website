@@ -20,4 +20,5 @@ menu = [
   { name = "Home", url = "/" },
   { name = "Rentals", url = "/rentals/" },
   { name = "News", url = "/#news" },
+  { name = "Contact", url = "/#contact" }
 ]
