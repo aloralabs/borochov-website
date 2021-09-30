@@ -7,13 +7,16 @@ module.exports = {
     theme: {
         extend: {
             transitionProperty: {
-                'footer': 'color, filter'
-            }
+                footer: "color, filter",
+            },
+            height: {
+                144: "36rem",
+            },
         },
     },
     variants: {
         extend: {
-            transitionProperty: ['hover']
+            transitionProperty: ["hover"],
         },
     },
     plugins: [require("@tailwindcss/typography")],
