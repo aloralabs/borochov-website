@@ -16,4 +16,8 @@ description = ""
 highlight_code = false
 
 [extra]
-# Put all your custom variables here
+menu = [
+  { name = "Home", url = "/" },
+  { name = "Rentals", url = "/rentals/" },
+  { name = "News", url = "/#news" },
+]

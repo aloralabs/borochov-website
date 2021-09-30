@@ -8,8 +8,11 @@
                 </div>
                 <div class="ml-6">
                     <div class="flex space-x-4">
-                        <a href="/" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Home</a>
-                        <a href="/rentals/" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Rentals</a>
+                        {% for item in config.extra.menu %}
+                        <a href="{{ item.url | safe }}" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium transition-colors duration-200">
+                            {{ item.name }}
+                        </a>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
