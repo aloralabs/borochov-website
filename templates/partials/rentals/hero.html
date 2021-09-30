@@ -1,27 +1,26 @@
 <div class="relative">
-    <div class="max-w-7xl mx-auto">
-        <div class="relative md:rounded-2xl md:overflow-hidden">
-            <div class="absolute inset-0">
-                <picture>
-                    {% set image = resize_image(path=current_path~"Ext1.jpg", width=1500, height=750, op="fill", format="webp", quality=75) %}
-                    <source srcset="{{ image.url }}" type="image/webp">
-                    {% set image = resize_image(path=current_path~"Ext1.jpg", width=1500, height=750, op="fill") %}
-                    <img src="{{ image.url }}" width="{{ image.width }}" height="{{ image.height }}" loading="lazy" draggable="false" class="h-full w-full object-cover">
-                </picture>
-                <div class="absolute inset-0 bg-blue-800 mix-blend-multiply bg-opacity-90"></div>
-            </div>
-            <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 text-center">
-                <h2 class="text-white heading-lg">Host your next event here</h2>
-                <p class="mb-6 text-indigo-100 subheading">We welcome and enjoy Bar & Bat Mitzvahs, baby namings and other family celebrations</p>
-                <a href="/#contact" class="inline-flex space-x-3 button-main">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" class="h-6 w-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                    <span>
-                        Reserve a date
-                    </span>
-                </a>
-            </div>
+    <div class="relative md:overflow-hidden">
+        <div class="absolute inset-0">
+            <picture>
+                {% set image = resize_image(path=current_path~"Ext1.jpg", width=1500, height=750, op="fill", format="webp", quality=75) %}
+                <source srcset="{{ image.url }}" type="image/webp">
+                {% set image = resize_image(path=current_path~"Ext1.jpg", width=1500, height=750, op="fill") %}
+                <img src="{{ image.url }}" width="{{ image.width }}" height="{{ image.height }}" loading="lazy" draggable="false" class="h-full w-full object-cover">
+            </picture>
+            <div class="absolute inset-0 bg-blue-800 mix-blend-multiply bg-opacity-90"></div>
+        </div>
+        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 text-center inset-0">
+            <h2 class="text-base font-semibold text-yellow-500 tracking-wide uppercase mb-1">Need a venue?</h2>
+            <h1 class="text-white heading-lg">Host your next event here</h1>
+            <p class="mb-6 text-indigo-100 subheading">We welcome and enjoy Bar & Bat Mitzvahs, baby namings and other family celebrations</p>
+            <a href="/#contact" class="inline-flex space-x-3 button-main">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" class="h-6 w-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <span>
+                    Reserve a date
+                </span>
+            </a>
         </div>
     </div>
 </div>
