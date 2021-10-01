@@ -7,7 +7,7 @@ body {
 }
 
 .divider {
-    @apply bg-yellow-500 pt-1 mt-4 mb-3 w-20 rounded-sm;
+    @apply bg-gradient-to-r from-yellow-500 to-yellow-400 pt-1 mt-2 mb-4 w-20 rounded-sm shadow;
 }
 
 .heading-lg {
