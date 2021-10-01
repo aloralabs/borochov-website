@@ -1,19 +1,17 @@
 <nav class="bg-gray-800 shadow-lg border-b border-indigo-900">
     <div class="max-w-7xl mx-auto px-default">
-        <div class="flex items-center justify-between h-16">
-            <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+        <div class="flex items-center justify-between py-4">
+            <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start gap-x-6 gap-y-4 flex-wrap">
                 <div class="flex-shrink-0 flex items-center">
                     {% set meta = get_image_metadata(path='images/logo.svg') %}
                     <img src="{{ get_url(path='images/logo.svg') }}" alt="Logo" height="{{ meta.height }}" width="{{ meta.width }}" draggable="false" class="h-8 w-8">
                 </div>
-                <div class="ml-6">
-                    <div class="flex space-x-4">
-                        {% for item in config.extra.menu %}
-                        <a href="{{ item.url | safe }}" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium transition-colors duration-200">
-                            {{ item.name }}
-                        </a>
-                        {% endfor %}
-                    </div>
+                <div class="flex space-x-4">
+                    {% for item in config.extra.menu %}
+                    <a href="{{ item.url | safe }}" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium transition-colors duration-200 text-sm md:text-base">
+                        {{ item.name }}
+                    </a>
+                    {% endfor %}
                 </div>
             </div>
         </div>
