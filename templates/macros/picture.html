@@ -1,0 +1,8 @@
+{% macro picture(path, width, height, class="", op="fill", loading="lazy") %}
+<picture>
+    {% set image = resize_image(path=path, width=width, height=height, op=op, format="webp", quality=75) %}
+    <source srcset="{{ image.url }}" type="image/webp">
+    {% set image = resize_image(path=path, width=width, height=height, op=op) %}
+    <img src="{{ image.url }}" width="{{ image.width }}" height="{{ image.height }}" draggable="false" loading="{{ loading }}" class="{{ class }}">
+</picture>
+{% endmacro %}

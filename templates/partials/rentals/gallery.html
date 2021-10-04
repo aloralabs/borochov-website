@@ -7,14 +7,7 @@
         <div class="grid grid-flow-row md:grid-cols-2 lg:grid-cols-3 gap-6">
             {% for asset in page.assets %}
             {% if asset is matching("[.](jpg)$") %}
-            <div class="shadow rounded-lg overflow-hidden">
-                <picture>
-                    {% set img = resize_image(path=asset, width=600, height=400, op="fill", format="webp", quality=75) %}
-                    <source srcset="{{ img.url }}" type="image/webp">
-                    {% set img = resize_image(path=asset, width=600, height=400, op="fill") %}
-                    <img src="{{ img.url }}" width="{{ img.width }}" height="{{ img.height }}" loading="lazy" draggable="false">
-                </picture>
-            </div>
+            {{ macros_picture::picture(path=asset, width=600, height=400, class="shadow rounded-lg overflow-hidden") }}
             {% endif %}
             {% endfor %}
         </div>
