@@ -19,6 +19,6 @@ highlight_code = false
 menu = [
   { name = "Home", url = "/" },
   { name = "Rentals", url = "/rentals/" },
-  { name = "News", url = "/#news" },
+  { name = "About Us", url = "/#about" },
   { name = "Contact", url = "/#contact" }
 ]
