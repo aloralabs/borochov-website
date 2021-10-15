@@ -1,0 +1,54 @@
+<div class="pt-12 pb-20 text-gray-600 bg-blue-900 px-default lg:pt-32 lg:pb-32">
+    <div class="max-w-screen-xl mx-auto">
+        <h2 class="heading text-white">Available Rooms</h2>
+        <div class="divider"></div>
+        <div class="shadow overflow-auto lg:overflow-hidden border-b border-gray-200 sm:rounded-lg my-6 max-w-screen-lg">
+            <table class="min-w-full divide-y divide-gray-200">
+                <thead class="bg-gray-50">
+                    <tr>
+                        <th scope="col" class="px-4 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">
+                            Room
+                        </th>
+                        <th scope="col" class="px-4 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">
+                            Size
+                        </th>
+                        <th scope="col" class="px-4 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">
+                            Capacity
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% set data = load_data(path=current_path~"rooms.toml") %}
+                    {% for r in data.rooms %}
+                    <tr class="bg-white odd:bg-yellow-50">
+                        <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-500">
+                            {{ r.name | safe }}
+                        </td>
+                        <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-500 tracking-wide">
+                            {{ r.size | safe }}
+                        </td>
+                        <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-500">
+                            {{ r.seating | safe }}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <ul class="text-blue-100 list-disc list-inside mb-6">
+            <li>$100 non-refundable security deposit required</li>
+            <li>Regular room rental hours are from 9:00am to 10:00pm</li>
+            <li>Rental available &half; day (4 hours or less) or full day (more than 4 hours)</li>
+            <li>Indemnity & insurance required (insurance does not apply to a one-time event)</li>
+            <li>Wheel chair accessible</li>
+        </ul>
+        <a href="/#contact" class="inline-flex space-x-3 button-main">
+            <span class="h-6 w-6">
+                {{ load_data(path="resources/images/email.svg") | safe }}
+            </span>
+            <span>
+                Contact us
+            </span>
+        </a>
+    </div>
+</div>

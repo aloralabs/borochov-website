@@ -3,7 +3,7 @@
     "build": "tailwind -i resources/styles/main.css -o static/main.css -m",
     "watch-tailwind": "tailwind -i resources/styles/main.css -o static/main.css -w",
     "watch-zola": "zola serve",
-    "watch": "concurrently -n 'zola,tailwind' -c 'bgBlue.bold,bgMagenta.bold' 'npm:watch-zola' 'npm:watch-tailwind'"
+    "watch": "concurrently --names='zola,tailwind' --prefix-colors='bgBlue.bold,bgMagenta.bold' 'npm:watch-zola' 'npm:watch-tailwind' --restart-tries=-1 --restart-after=5000"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.4.1",
