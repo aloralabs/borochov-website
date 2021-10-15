@@ -1,5 +1,4 @@
 ---
 title: "Rentals"
-template: "rentals.html"
+template: "rentals/rentals.html"
 ---
-

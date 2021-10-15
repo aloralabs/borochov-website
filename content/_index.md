@@ -2,6 +2,7 @@
 title: Home
 extra:
   date: 2021-09-18
+template: "home/index.html"
 ---
 ### COVID-19 Update
 
