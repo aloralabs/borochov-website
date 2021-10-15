@@ -14,12 +14,18 @@
                             Sarah Klaiman
                         </h3>
                         <div class="mt-2 text-base">
-                            <div class="mb-2">
+                            <div class="mb-2 flex space-x-3 items-center">
+                                <span class="h-5 w-5 text-gray-500">
+                                    {{ load_data(path="resources/images/email.svg") | safe }}
+                                </span>
                                 <a href="mailto:borochov18@gmail.com" class="styled-link transition-colors duration-200">
                                     borochov18@gmail.com
                                 </a>
                             </div>
-                            <div>
+                            <div class="flex space-x-3 items-center">
+                                <span class="h-5 w-5 text-gray-500">
+                                    {{ load_data(path="resources/images/phone.svg") | safe }}
+                                </span>
                                 <a href="tel:4166309444" class="styled-link transition-colors duration-200">
                                     416-630-9444
                                 </a>
