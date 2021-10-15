@@ -3,10 +3,6 @@
 {% block content %}
 
 <main>
-    {% include "contact/partials/about.html" %}
-
-    {% include "contact/partials/contact.html" %}
-
     <div class="relative">
         <div class="relative md:overflow-hidden">
             <div class="absolute inset-0">
@@ -17,6 +13,7 @@
         </div>
     </div>
 
+    {% include "contact/partials/contact.html" %}
 </main>
 
 {% endblock content %}
