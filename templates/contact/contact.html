@@ -6,10 +6,17 @@
     <div class="relative">
         <div class="relative md:overflow-hidden">
             <div class="absolute inset-0">
-                {{ macros_picture::picture(path=current_path~"map.png", width=1500, height=750, loading="eager", class="h-full w-full object-cover") }}
+                {{ macros_picture::picture(path=current_path~"map.png", width=3000, height=1500, loading="eager", class="h-full w-full object-cover") }}
                 <div class="absolute inset-0 bg-blue-800 mix-blend-multiply bg-opacity-90"></div>
             </div>
-            <div class="h-144"></div>
+            <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 text-center">
+                <h2 class="text-base font-semibold text-yellow-500 tracking-wide uppercase mb-1">We are waiting</h2>
+
+                <h1 class="text-white heading-lg">Get in Touch</h1>
+                <p class="mb-6 text-indigo-100 subheading">
+                    Find out about our services & rental rates
+                </p>
+            </div>
         </div>
     </div>
 
