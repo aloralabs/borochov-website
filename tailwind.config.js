@@ -12,6 +12,9 @@ module.exports = {
             height: {
                 144: "36rem",
             },
+            listStyleType: {
+                arrow: 'disclosure-closed'
+            }
         },
     },
     variants: {
