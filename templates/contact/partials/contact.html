@@ -1,36 +1,42 @@
-<div class="bg-blue-900" id="contact">
+<div id="contact">
     <div class="max-w-7xl mx-auto py-16 lg:py-24 px-default">
         <div class="divide-y-2 divide-gray-200">
             <div class="lg:grid lg:grid-cols-3 lg:gap-8">
                 <div>
-                    <h2 class="text-white heading">
-                        Get in touch
+                    <h2 class=" heading">
+                        Information
                     </h2>
                     <div class="divider"></div>
                 </div>
                 <div class="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-12 lg:mt-0 lg:col-span-2">
                     <div>
-                        <h3 class="text-lg leading-6 font-medium text-white">
+                        <h3 class="text-lg leading-6 font-medium ">
                             Sarah Klaiman
                         </h3>
-                        <div class="mt-2 text-base text-blue-100">
-                            <div>
-                                <a href="mailto:borochov18@gmail.com" class="hover:text-white transition-colors duration-200">
+                        <div class="mt-2 text-base">
+                            <div class="mb-2 flex space-x-3 items-center">
+                                <span class="h-5 w-5 text-gray-500">
+                                    {{ load_data(path="resources/images/email.svg") | safe }}
+                                </span>
+                                <a href="mailto:borochov18@gmail.com" class="styled-link transition-colors duration-200">
                                     borochov18@gmail.com
                                 </a>
                             </div>
-                            <div>
-                                <a href="tel:4166309444" class="hover:text-white transition-colors duration-200">
-                                    (416) 630-9444
+                            <div class="flex space-x-3 items-center">
+                                <span class="h-5 w-5 text-gray-500">
+                                    {{ load_data(path="resources/images/phone.svg") | safe }}
+                                </span>
+                                <a href="tel:4166309444" class="styled-link transition-colors duration-200">
+                                    416-630-9444
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <h3 class="text-lg leading-6 font-medium text-white">
+                        <h3 class="text-lg leading-6 font-medium ">
                             Address
                         </h3>
-                        <div class="mt-2 text-base text-blue-100">
+                        <div class="mt-2 text-base">
                             <div>Borochov Cultural Centre &amp; Kol Yisroel Congregation</div>
                             <div>272 Codsell Avenue</div>
                             <div>Toronto, Ontario</div>
@@ -38,10 +44,10 @@
                         </div>
                     </div>
                     <div>
-                        <h3 class="text-lg leading-6 font-medium text-white">
+                        <h3 class="text-lg leading-6 font-medium ">
                             Office Hours
                         </h3>
-                        <div class="mt-2 text-base text-blue-100">
+                        <div class="mt-2 text-base">
                             <table class=>
                                 <tr>
                                     <td>12pm &ndash; 5pm</td>
@@ -55,10 +61,10 @@
                         </div>
                     </div>
                     <div>
-                        <h3 class="text-lg leading-6 font-medium text-white">
+                        <h3 class="text-lg leading-6 font-medium ">
                             After Hours
                         </h3>
-                        <div class="mt-2 text-base text-blue-100">
+                        <div class="mt-2 text-base">
                             <p>Please feel free to leave a message or send us an email and we will respond the next business day.</p>
                         </div>
                     </div>
