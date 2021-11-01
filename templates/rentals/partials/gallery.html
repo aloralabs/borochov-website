@@ -4,12 +4,76 @@
             <h2 class="heading text-gray-800">Our Facilities</h2>
             <div class="divider mx-auto"></div>
         </div>
-        <div class="grid grid-flow-row md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {% for asset in page.assets %}
-            {% if asset is matching("[.](jpg)$") %}
-            {{ macros_picture::picture(path=asset, width=600, height=400, class="shadow rounded-lg overflow-hidden") }}
-            {% endif %}
-            {% endfor %}
+        <div class="grid grid-flow-row grid-cols-5 gap-6">
+            <div class="prose col-span-1">
+                <h3 id="lobby">
+                    Lobby
+                </h3>
+            </div>
+            <div class="col-span-4 grid grid-cols-2 gap-6">
+                {{ macros_picture::picture(path=current_path~"Entrance.jpg", width=600, height=400, class="shadow rounded-lg overflow-hidden") }}
+                {{ macros_picture::picture(path=current_path~"Entrance2.jpg", width=600, height=400, class="shadow rounded-lg overflow-hidden") }}
+            </div>
+        </div>
+        <div class="grid grid-flow-row grid-cols-5 gap-6 mt-10">
+            <div class="prose col-span-1">
+                <h3 id="boardroom">
+                    Boardroom
+                </h3>
+            </div>
+            <div class="col-span-4 grid grid-cols-2 gap-6">
+                {{ macros_picture::picture(path=current_path~"Boardroom1.jpg", width=600, height=400, class="shadow rounded-lg overflow-hidden") }}
+                {{ macros_picture::picture(path=current_path~"Boardroom2.jpg", width=600, height=400, class="shadow rounded-lg overflow-hidden") }}
+                {{ macros_picture::picture(path=current_path~"Boardroom3.jpg", width=600, height=400, class="shadow rounded-lg overflow-hidden") }}
+                {{ macros_picture::picture(path=current_path~"Boardroom4.jpg", width=600, height=400, class="shadow rounded-lg overflow-hidden") }}
+            </div>
+        </div>
+        <div class="grid grid-flow-row grid-cols-5 gap-6 mt-10">
+            <div class="prose col-span-1">
+                <h3 id="kitchen">
+                    Kitchen
+                </h3>
+            </div>
+            <div class="col-span-4 grid grid-cols-2 gap-6">
+                {{ macros_picture::picture(path=current_path~"Kitchen1.jpg", width=600, height=400, class="shadow rounded-lg overflow-hidden") }}
+                {{ macros_picture::picture(path=current_path~"Kitchen2.jpg", width=600, height=400, class="shadow rounded-lg overflow-hidden") }}
+                {{ macros_picture::picture(path=current_path~"Kitchen3.jpg", width=600, height=400, class="shadow rounded-lg overflow-hidden") }}
+                {{ macros_picture::picture(path=current_path~"Kitchen4.jpg", width=600, height=400, class="shadow rounded-lg overflow-hidden") }}
+            </div>
+        </div>
+        <div class="grid grid-flow-row grid-cols-5 gap-6 mt-10">
+            <div class="prose col-span-1">
+                <h3 id="room-2">
+                    Room 2
+                </h3>
+            </div>
+            <div class="col-span-4 grid grid-cols-2 gap-6">
+                {{ macros_picture::picture(path=current_path~"Room1.jpg", width=600, height=400, class="shadow rounded-lg overflow-hidden") }}
+                {{ macros_picture::picture(path=current_path~"Room2.jpg", width=600, height=400, class="shadow rounded-lg overflow-hidden") }}
+            </div>
+        </div>
+        <div class="grid grid-flow-row grid-cols-5 gap-6 mt-10">
+            <div class="prose col-span-1">
+                <h3 id="main-hall">
+                    Main Hall
+                </h3>
+            </div>
+            <div class="col-span-4 grid grid-cols-2 gap-6">
+                {{ macros_picture::picture(path=current_path~"Social1.jpg", width=600, height=400, class="shadow rounded-lg overflow-hidden") }}
+                {{ macros_picture::picture(path=current_path~"Social2.jpg", width=600, height=400, class="shadow rounded-lg overflow-hidden") }}
+                {{ macros_picture::picture(path=current_path~"Social3.jpg", width=600, height=400, class="shadow rounded-lg overflow-hidden") }}
+            </div>
+        </div>
+        <div class="grid grid-flow-row grid-cols-5 gap-6 mt-10">
+            <div class="prose col-span-1">
+                <h3 id="bathroom">
+                    Bathroom
+                </h3>
+            </div>
+            <div class="col-span-4 grid grid-cols-2 gap-6">
+                {{ macros_picture::picture(path=current_path~"Bathroom.jpg", width=600, height=400, class="shadow rounded-lg overflow-hidden") }}
+                {{ macros_picture::picture(path=current_path~"Bathroom2.jpg", width=600, height=400, class="shadow rounded-lg overflow-hidden") }}
+            </div>
         </div>
     </div>
 </div>
