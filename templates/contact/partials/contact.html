@@ -10,7 +10,7 @@
                 </div>
                 <div class="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-12 lg:mt-0 lg:col-span-2">
                     <div>
-                        <h3 class="text-lg leading-6 font-medium ">
+                        <h3 class="text-lg leading-6 font-medium">
                             Sarah Klaiman
                         </h3>
                         <div class="mt-2 text-base">
@@ -18,7 +18,7 @@
                                 <span class="h-5 w-5 text-gray-500">
                                     {{ load_data(path="resources/images/email.svg") | safe }}
                                 </span>
-                                <a href="mailto:borochov18@gmail.com" class="styled-link transition-colors duration-200">
+                                <a href="mailto:borochov18@gmail.com" class="styled-link">
                                     borochov18@gmail.com
                                 </a>
                             </div>
@@ -26,7 +26,7 @@
                                 <span class="h-5 w-5 text-gray-500">
                                     {{ load_data(path="resources/images/phone.svg") | safe }}
                                 </span>
-                                <a href="tel:4166309444" class="styled-link transition-colors duration-200">
+                                <a href="tel:4166309444" class="styled-link">
                                     416-630-9444
                                 </a>
                             </div>
@@ -37,10 +37,12 @@
                             Address
                         </h3>
                         <div class="mt-2 text-base">
-                            <div>Borochov Cultural Centre &amp; Kol Yisroel Congregation</div>
-                            <div>272 Codsell Avenue</div>
-                            <div>Toronto, Ontario</div>
-                            <div>M3H 3X2</div>
+                            <a href="https://goo.gl/maps/keq8myDpnUN5tWCf9" target="_blank" class="styled-link">
+                                <div class="mb-1">Borochov Cultural Centre &amp; Kol Yisroel Congregation</div>
+                            </a>
+                            <div class="mb-1">272 Codsell Avenue</div>
+                            <div class="mb-1">Toronto, Ontario</div>
+                            <div class="mb-1">M3H 3X2</div>
                         </div>
                     </div>
                     <div>
@@ -48,7 +50,7 @@
                             Office Hours
                         </h3>
                         <div class="mt-2 text-base">
-                            <table class=>
+                            <table>
                                 <tr>
                                     <td>12pm &ndash; 5pm</td>
                                     <td class="pl-3">Tuesday & Thursday</td>

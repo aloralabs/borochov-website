@@ -32,7 +32,7 @@ body {
 
 .prose a:hover,
 .styled-link:hover {
-    @apply border-opacity-100;
+    @apply border-opacity-100 transition-colors duration-200;
 }
 
 .prose a,

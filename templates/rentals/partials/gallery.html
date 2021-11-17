@@ -1,11 +1,11 @@
 <div class="py-16 bg-gray-50" id="gallery">
     <div class="container mx-auto px-default">
         <div class="text-center">
-            <h2 class="heading text-gray-800">Our Facilities</h2>
+            <h2 class="heading text-gray-800" id="gallery">Our Facilities</h2>
             <div class="divider mx-auto"></div>
         </div>
         <div class="grid grid-flow-row md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {% for asset in page.assets %}
+            {% for asset in page.assets | sort %}
             {% if asset is matching("[.](jpg)$") %}
             {{ macros_picture::picture(path=asset, width=600, height=400, class="shadow rounded-lg overflow-hidden") }}
             {% endif %}
