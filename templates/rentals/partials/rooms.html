@@ -22,7 +22,9 @@
                     {% for r in data.rooms %}
                     <tr class="bg-white odd:bg-yellow-50">
                         <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-500">
-                            {{ r.name | safe }}
+                            <a href="#gallery">
+                                {{ r.name | safe }}
+                            </a>
                         </td>
                         <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-500 tracking-wide">
                             {{ r.size | safe }}

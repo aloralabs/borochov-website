@@ -8,11 +8,9 @@ compile_sass = false
 build_search_index = true
 
 title = "Kol Yisroel Congregation"
-description = ""
+description = "A conservative Jewish egalitarian congregation, Kol Yisroel, was started in 1991 by Julius Sokoloff and David Newman."
 
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = false
 
 [extra]
