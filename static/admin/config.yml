@@ -5,6 +5,7 @@ backend:
   branch: master
 media_folder: static/images
 public_folder: /images
+search: false
 media_library:
   name: 'disabled'
 collections:
