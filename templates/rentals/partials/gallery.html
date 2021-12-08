@@ -6,7 +6,7 @@
         </div>
         <div class="grid grid-flow-row md:grid-cols-2 lg:grid-cols-3 gap-6">
             {% for asset in page.assets | sort %}
-            {% if asset is matching("gallery/.*[.](jpg)$") %}
+            {% if asset is matching("gallery/.*(jpg|png)$") %}
             {{ macros_picture::picture(path=asset, width=600, height=400, class="shadow rounded-lg overflow-hidden") }}
             {% endif %}
             {% endfor %}
