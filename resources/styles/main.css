@@ -2,10 +2,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-body {
-    touch-action: pan-x pan-y;
-}
-
 .divider {
     @apply bg-gradient-to-r from-yellow-500 to-yellow-400 pt-1 mt-2 mb-6 w-20 rounded-sm shadow;
 }

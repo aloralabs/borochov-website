@@ -1,9 +1,7 @@
+const colors = require("tailwindcss/colors");
+
 module.exports = {
-    mode: "jit",
-    purge: {
-        content: ["./templates/**/*.html"],
-    },
-    darkMode: false,
+    content: ["./templates/**/*.html"],
     theme: {
         extend: {
             transitionProperty: {
@@ -13,13 +11,8 @@ module.exports = {
                 144: "36rem",
             },
             listStyleType: {
-                arrow: 'disclosure-closed'
-            }
-        },
-    },
-    variants: {
-        extend: {
-            transitionProperty: ["hover"],
+                arrow: "disclosure-closed",
+            },
         },
     },
     plugins: [require("@tailwindcss/typography")],
