@@ -5,11 +5,9 @@
 <main>
     {% include "home/partials/hero.html" %}
 
-    {% include "home/partials/about.html" %}
-
     {% include "home/partials/updates.html" %}
 
-    {% include "home/partials/rentals.html" %}
+    {{ macros_rentals::rentals() }}
 </main>
 
 {% endblock content %}
