@@ -1,0 +1,19 @@
+[[gallery]]
+name = "Hall"
+images = [ "Social1.jpg", "Social2.jpg", "Social3.jpg" ]
+
+[[gallery]]
+name = "Kitchen"
+images = [ "Kitchen1.jpg", "Kitchen2.jpg" ]
+
+[[gallery]]
+name = "Boardroom"
+images = [ "Boardroom1.jpg", "Boardroom2.jpg", "Boardroom3.jpg", "Boardroom4.jpg" ]
+
+[[gallery]]
+name = "Room 2"
+images = [ "Room1.jpg", "Room2.jpg" ]
+
+[[gallery]]
+name = "Bathroom"
+images = [ "Bathroom.jpg", "Bathroom2.jpg"]

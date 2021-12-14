@@ -30,7 +30,7 @@
 
     {% include "contact/partials/contact.html" %}
 
-    {% include "home/partials/rentals.html" %}
+    {{ macros_rentals::rentals() }}
 </main>
 
 {% endblock content %}
