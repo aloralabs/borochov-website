@@ -1,3 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+
 <main>
     <div class="max-w-7xl mx-auto py-16 px-default" id="about">
         <div class="grid gap-16 md:grid-cols-2">
@@ -23,3 +27,7 @@
         </div>
     </div>
 </main>
+
+{{ macros_rentals::rentals(banner="content/rentals/gallery/Social1.jpg") }}
+
+{% endblock content %}
