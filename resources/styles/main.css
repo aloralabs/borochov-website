@@ -23,7 +23,7 @@
 }
 
 .button-main {
-    @apply text-white bg-yellow-500 hover:bg-yellow-600 font-semibold rounded-lg px-5 py-4 lg:px-8 xl:px-12 shadow-sm transition-colors duration-200;
+    @apply text-white bg-yellow-500 hover:bg-yellow-600 font-semibold rounded-lg px-5 py-4 lg:px-8 xl:px-12 transition-colors duration-200 shadow-lg shadow-yellow-500/20;
 }
 
 .prose a:hover,
