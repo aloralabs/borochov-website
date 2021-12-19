@@ -16,7 +16,7 @@ We thank you for your understanding and wish to see you all in good health and y
 
 Borochov Cultural Centre and Kol Yisroel Congregation normally conduct Services during Rosh Hashanah and Yom Kippur that attract families from all areas of Greater Toronto. Over the past 50+ years we have established a congregation of generations. Our family services are conducted in a warm, friendly, comfortable atmosphere with reserved seating at reasonable rates.  We also normally provide babysitting.
 
-### Events
+### Associates
 
 * Bingo is reopening! Check out the [Delta Bingo Gaming website](https://deltabingo.com/our-locations/downsview/). Did you know that funds raised from charity gaming go to support local charities? We are proud to be one of those charities.
 * [Na'amat Canada Toronto](http://naamat.com/toronto)
