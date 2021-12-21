@@ -21,5 +21,5 @@ Borochov Cultural Centre and Kol Yisroel Congregation normally conduct Services 
 * Bingo is reopening! Check out the [Delta Bingo Gaming website](https://deltabingo.com/our-locations/downsview/). Did you know that funds raised from charity gaming go to support local charities? We are proud to be one of those charities.
 * [Na'amat Canada Toronto](https://www.naamat.com)
 * [Camp Gesher](https://campgesher.com)
-* [ORT Toronto](https://ort-toronto.org/upcoming-events/)
+* [ORT Toronto](https://ort-toronto.org)
 * Children are People Childcare Centre
