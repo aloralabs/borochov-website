@@ -4,6 +4,7 @@ backend:
   name: git-gateway
   branch: master
 site_url: https://kolyisroel.ca
+display_url: https://kolyisroel.ca
 media_folder: static/images
 public_folder: /images
 search: false
