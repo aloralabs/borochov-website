@@ -5,7 +5,6 @@ backend:
   branch: master
 site_url: https://kolyisroel.ca
 display_url: https://kolyisroel.ca
-logo_url: https://kolyisroel.ca/images/logo.svg
 media_folder: static/images
 public_folder: /images
 search: false
