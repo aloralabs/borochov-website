@@ -2,15 +2,15 @@
 title: Home
 extra:
   date: 2021-09-18
-template: "home/index.html"
+template: home/index.html
 ---
 ### COVID-19 Update
 
-Shalom! Like many of you, we have had to adjust our schedule this year. We will not be holding High Holiday services for 5781 (2020) due to governments regulations and our concern for the safety of our community.
+Shalom! We are excited to announce that we will be holding High Holy Day services for the year 5783 (2022).
 
-With the governments regulations as to how many people would be able to attend and with social distancing policies in place, we estimate that only under 100 persons could be in attendance. Consideration was also given as to how many of you would want to attend services where wearing masks and social distancing would be mandatory as well as the possibility of putting yourselves at risk.
+We will closely monitor for any changes to government regulations and will adhere to them as well as any recommendations from Ontario Public Health.
 
-We thank you for your understanding and wish to see you all in good health and your smiling faces next year.
+We thank you for your loyalty and wish to see you all in good health and your smiling faces this year.
 
 ### Upcoming Services
 
@@ -18,7 +18,7 @@ Borochov Cultural Centre and Kol Yisroel Congregation normally conduct Services 
 
 ### Associates
 
-* Bingo is reopening! Check out the [Delta Bingo Gaming website](https://deltabingo.com/our-locations/downsview/). Did you know that funds raised from charity gaming go to support local charities? We are proud to be one of those charities.
+* Bingo is open! Check out the [Delta Bingo Gaming website](https://deltabingo.com/our-locations/downsview/). Did you know that funds raised from charity gaming go to support local charities? We are proud to be one of those charities.
 * [Na'amat Canada Toronto](https://www.naamat.com)
 * [Camp Gesher](https://campgesher.com)
 * [ORT Toronto](https://ort-toronto.org)
