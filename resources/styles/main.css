@@ -42,11 +42,17 @@
 }
 
 .nav-link {
-    transition-property: text-decoration;
     @apply text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium transition-all duration-200 text-sm md:text-base;
 }
 
 .nav-link.active:not(:hover) {
-    @apply underline;
     text-underline-offset: 4px;
+}
+
+.nav-link.active span {
+    @apply border-b transition-all duration-200 border-gray-300;
+}
+
+.nav-link.active:hover span {
+    @apply border-transparent;
 }
