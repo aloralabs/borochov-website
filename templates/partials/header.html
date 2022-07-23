@@ -6,17 +6,24 @@
                     {% set meta = get_image_metadata(path='images/logo.svg') %}
                     <img src="{{ get_url(path='images/logo.svg') }}" alt="Logo" height="{{ meta.height }}" width="{{ meta.width }}" draggable="false" class="h-8 w-8">
                 </div>
+                {% if page.path %}
+                {% set path = page.path %}
+                {% elif section.path %}
+                {% set path = section.path %}
+                {% else %}
+                {% set path = "" %}
+                {% endif %}
                 <div class="flex space-x-4">
-                    <a href="/" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium transition-colors duration-200 text-sm md:text-base">
+                    <a href="/" class="nav-link{% if path == '/' %} active{% endif %}">
                         Home
                     </a>
-                    <a href="/about/" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium transition-colors duration-200 text-sm md:text-base">
+                    <a href="/about/" class="nav-link{% if path == '/about/' %} active{% endif %}">
                         About
                     </a>
-                    <a href="/contact/" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium transition-colors duration-200 text-sm md:text-base">
+                    <a href="/contact/" class="nav-link{% if path == '/contact/' %} active{% endif %}">
                         Contact
                     </a>
-                    <a href="/rentals/" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium transition-colors duration-200 text-sm md:text-base">
+                    <a href="/rentals/" class="nav-link{% if path == '/rentals/' %} active{% endif %}">
                         Rentals
                     </a>
                 </div>
