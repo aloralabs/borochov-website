@@ -1,9 +1,11 @@
 {
   "scripts": {
-    "build": "tailwind -i resources/styles/main.css -o static/main.css -m",
+    "build-tailwind": "tailwind -i resources/styles/main.css -o static/main.css -m",
+    "build-zola": "zola build",
+    "build": "npm run build-tailwind && npm run build-zola",
     "watch-tailwind": "tailwind -i resources/styles/main.css -o static/main.css -w",
     "watch-zola": "zola serve",
-    "watch": "concurrently --names='zola,tailwind' --prefix-colors='bgBlue.bold,bgMagenta.bold' 'npm:watch-zola' 'npm:watch-tailwind' --restart-tries=-1 --restart-after=5000"
+    "watch": "concurrently --names='zola,tailwind' --prefix-colors='bgBlue.bold,bgMagenta.bold' --restart-tries=-1 'npm:watch-zola' 'npm:watch-tailwind'"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.0",
