@@ -4,17 +4,17 @@ extra:
   date: 2021-09-18
 template: home/index.html
 ---
-### COVID-19 Update
+### Shabbat Services
 
-Shalom! We are excited to announce that we will be holding High Holy Day services for the year 5783 (2022).
+Shalom! We are excited to announce that we will be holding Shabbat services again.
 
-We will closely monitor for any changes to government regulations and will adhere to them as well as any recommendations from Ontario Public Health.
+Services begin at 9:00 a.m. and there is always a kiddush following the service. 
 
-We thank you for your loyalty and wish to see you all in good health and your smiling faces this year.
+A weekly email goes out informing you of the upcoming Shabbat service.  To join the list please use the following email address **weekly-join@bmjc.ca**
 
 ### Upcoming Services
 
-Borochov Cultural Centre and Kol Yisroel Congregation normally conduct Services during Rosh Hashanah and Yom Kippur that attract families from all areas of Greater Toronto. Over the past 50+ years we have established a congregation of generations. Our family services are conducted in a warm, friendly, comfortable atmosphere with reserved seating at reasonable rates.  We also normally provide babysitting.
+Borochov Cultural Centre and Kol Yisroel Congregation conduct services during Rosh Hashanah and Yom Kippur that attract families from all areas of Greater Toronto. Over the past 50+ years we have established a congregation of generations. Our family services are conducted in a warm, friendly, comfortable atmosphere with reserved seating at reasonable rates.
 
 ### Associates
 
