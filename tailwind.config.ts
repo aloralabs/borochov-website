@@ -1,8 +1,7 @@
-const colors = require("tailwindcss/colors");
+import type { Config } from "tailwindcss";
 
-/** @type {import("tailwindcss").Config} */
 module.exports = {
-    content: ["./templates/**/*.html"],
+    content: ["templates/**/*.html"],
     theme: {
         extend: {
             transitionProperty: {
@@ -17,4 +16,4 @@ module.exports = {
         },
     },
     plugins: [require("@tailwindcss/typography")],
-};
+} satisfies Config;
