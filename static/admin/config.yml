@@ -19,17 +19,16 @@ collections:
     editor:
       preview: false
     fields:
-      - label: "Body"
-        name: "body"
-        widget: "markdown"
-
       - label: "Extra"
         name: "extra"
         widget: "object"
         collapsed: false
         fields:
-          - label: "Date"
+          - label: "Updated time"
             name: "date"
             widget: "datetime"
             date_format: "DD-MM-YYYY"
             picker_utc: false
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
