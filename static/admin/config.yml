@@ -23,8 +23,7 @@ collections:
         name: "body"
         widget: "markdown"
       - label: "Date"
-        name: "date"
-        identifier_field: extra.date
+        name: "extra.date"
         widget: "datetime"
-        date_format: "DD-MM-YYYY" # e.g. 24.12.2021
+        date_format: "DD-MM-YYYY"
         picker_utc: false
