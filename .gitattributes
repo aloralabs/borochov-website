@@ -1,2 +1,8 @@
 * text=auto eol=lf
-* !text !filter !merge !diff
+
+package-lock.json -diff
+
+*.pdf binary
+*.jpg binary
+*.png binary
+*.bmp binary
