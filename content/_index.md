@@ -1,7 +1,7 @@
 ---
 title: Home
 extra:
-  date: 2021-09-18
+  date: 2023-10-06T20:09:41.166Z
 template: home/index.html
 ---
 ### Shabbat Services
@@ -10,7 +10,7 @@ Shalom! We are excited to announce that we will be holding Shabbat services agai
 
 Services begin at 9:00 a.m. and there is always a kiddush following the service. 
 
-A weekly email goes out informing you of the upcoming Shabbat service.  To join the list please use the following email address **weekly-join@bmjc.ca**
+A weekly email goes out informing you of the upcoming Shabbat service.  To join the list please use the following email address [weekly-join@bmjc.ca](mailto:weekly-join@bmjc.ca)
 
 ### Upcoming Services
 
