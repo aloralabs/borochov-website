@@ -18,8 +18,8 @@
     @apply text-lg sm:text-xl lg:text-2xl;
 }
 
-.px-default {
-    @apply px-4 sm:px-6 lg:px-8;
+.py-hero {
+    @apply py-16 sm:py-24 lg:py-32;
 }
 
 .button-main {
