@@ -22,4 +22,4 @@ Borochov Cultural Centre and Kol Yisroel Congregation conduct services during Ro
 * [Na'amat Canada Toronto](https://www.naamat.com)
 * [Camp Gesher](https://campgesher.com)
 * [ORT Toronto](https://ort-toronto.org)
-* Children are People Childcare Centre
+* [Children are People Childcare Centre](https://www.icsg.ca/)
