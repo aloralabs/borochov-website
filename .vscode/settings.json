@@ -4,11 +4,16 @@
     "node_modules": true,
     "**/processed_images": true,
     "**/_gen": true,
-    "static/*.css": true,
     "public": true
   },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features",
+  "search.exclude": {
+    "static/*.css": true,
+  },
+  "files.associations": {
+    ".html": "handlebars",
+  },
+  "[html][handlebars]": {
+    "editor.defaultFormatter": "monosans.djlint",
     "editor.formatOnSave": true
   },
 }
