@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="{{ get_url(path='main.css', cachebust=true) }}">
     <link rel=icon type=image/svg+xml href="{{ get_url(path='images/logo.svg') }}">
     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script type="module">
+        import * as Turbo from 'https://cdn.skypack.dev/@hotwired/turbo';
+    </script>
 </head>
 
 <body class="min-h-screen flex flex-col touch-pan-x touch-pan-y">
