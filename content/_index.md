@@ -8,7 +8,7 @@ template: home/index.html
 
 Shalom! We are excited to announce that we will be holding Shabbat services again.
 
-Services begin at 9:00 a.m. and there is always a kiddush following the service. 
+Services begin at 9:30 a.m. and there is always a kiddush following the service. 
 
 A weekly email goes out informing you of the upcoming Shabbat service.  To join the list please use the following email address [weekly-join@bmjc.ca](mailto:weekly-join@bmjc.ca)
 
