@@ -33,12 +33,7 @@
 
 .prose a,
 .styled-link {
-    text-decoration-color: rgba(245, 158, 11, var(--tw-border-opacity));
-    text-underline-offset: 3px;
-    text-decoration-line: underline;
-    text-decoration-thickness: 2px;
-    transition-property: text-decoration-color;
-    @apply border-opacity-30 duration-200;
+    @apply border-opacity-30 duration-200 transition-colors underline underline-offset-[3px] decoration-2 decoration-yellow-500/30 hover:decoration-yellow-500;
 }
 
 .nav-link {
