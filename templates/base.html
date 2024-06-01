@@ -7,7 +7,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ config.title }}</title>
+
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% elif section.description %}
+    <meta name="description" content="{{ section.description }}">
+    {% elif config.description %}
+    <meta name="description" content="{{ config.description }}">
+    {% endif %}
+
+    {% if page.title %}
+    <title>{{ page.title }} | {{ config.title }}</title>
+    {% elif section.title %}
+    <title>{{ page.title }} | {{ config.title }}</title>
+    {% elseif config.title %}
+    <title>{{ config.title }}</title>
+    {% endif %}
+
     <link rel="stylesheet" href="{{ get_url(path='main.css', cachebust=true) }}">
     <link rel=icon type=image/svg+xml href="{{ get_url(path='images/logo.svg') }}">
     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
