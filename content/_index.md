@@ -14,7 +14,27 @@ A weekly email goes out informing you of the upcoming Shabbat service.  To join 
 
 ### Upcoming Services
 
-Borochov Cultural Centre and Kol Yisroel Congregation conduct services during Rosh Hashanah and Yom Kippur that attract families from all areas of Greater Toronto. Over the past 50+ years we have established a congregation of generations. Our family services are conducted in a warm, friendly, comfortable atmosphere with reserved seating at reasonable rates.
+Borochov Cultural Centre and Kol Yisroel Congregation conduct services during Rosh Hashanah and Yom Kippur that attract families from all areas of Greater Toronto. Over the past 50+ years we have established a congregation of generations. Our family services are conducted in a warm, friendly, comfortable atmosphere with reserved seating at reasonable rates.  The cost for tickets is $85 and children 12 and under is $55.
+
+Our High Holiday services are led by Cantor Gary Zener and Ahsher Zeldin.
+
+**Rosh Hashanah**         
+
+Thursday October 3rd        9:30 a.m.
+
+Friday October 4th             9:30 a.m.
+
+**Yom Kippur**
+
+Friday October 11th           6:15 p.m.
+
+Saturday October 12th       9:30 a.m.
+
+Sunday October 12th         5:30 p.m.        
+
+
+
+
 
 ### Associates
 
