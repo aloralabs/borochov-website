@@ -5,7 +5,7 @@
         <h3 class="text-xl font-bold mb-3 mt-6 first:mt-0">{{ section.name }}</h3>
         <div class="grid grid-flow-row md:grid-cols-2 lg:grid-cols-3 gap-6">
             {% for img in section.images %}
-            {{ macros_picture::picture(path=current_path~"gallery/"~img, width=600, height=400, class="shadow rounded-lg overflow-hidden") }}
+            {{ macros_picture::picture(path=current_path~"gallery/"~img, width=600, height=400, class="shadow-sm rounded-lg overflow-hidden") }}
             {% endfor %}
         </div>
         {% endfor %}

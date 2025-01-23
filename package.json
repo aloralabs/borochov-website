@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "build-tailwind": "tailwind -i resources/styles/main.css -o static/main.css -m",
+    "build-tailwind": "npx @tailwindcss/cli -i resources/styles/main.css -o static/main.css -m",
     "build-zola": "zola build",
     "build": "run-s -l build-tailwind build-zola",
-    "watch-tailwind": "tailwind -i resources/styles/main.css -o static/main.css -w",
+    "watch-tailwind": "npx @tailwindcss/cli -i resources/styles/main.css -o static/main.css -w",
     "watch-zola": "zola serve",
     "watch": "npm-run-all -l -s build-tailwind -p watch-tailwind watch-zola"
   },
@@ -14,6 +14,6 @@
     "autoprefixer": "^10.4.0",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.4",
-    "tailwindcss": "^3.4.0"
+    "tailwindcss": "^4.0.0"
   }
 }

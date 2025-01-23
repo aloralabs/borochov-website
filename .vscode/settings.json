@@ -11,9 +11,10 @@
   },
   "files.associations": {
     ".html": "handlebars",
+    ".css": "tailwindcss"
   },
   "[html][handlebars]": {
     "editor.defaultFormatter": "monosans.djlint",
     "editor.formatOnSave": true
-  },
+  }
 }
