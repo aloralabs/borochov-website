@@ -9,12 +9,13 @@
     --breakpoint-md: 768px;
     --breakpoint-lg: 1024px;
     --breakpoint-xl: 1280px;
-
     --transition-property-footer: color, filter;
-
     --height-144: 36rem;
-
     --list-style-type-arrow: disclosure-closed;
+}
+
+@utility container {
+    @apply mx-auto px-4 sm:px-6 lg:px-8;
 }
 
 .divider {
