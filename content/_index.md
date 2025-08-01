@@ -1,7 +1,7 @@
 ---
 title: Home
 extra:
-  date: 2023-10-06T20:09:41.166Z
+  date: 01-08-2025
 template: home/index.html
 ---
 ### Shabbat Services
@@ -20,21 +20,17 @@ Our High Holiday services are led by Cantor Gary Zener and Ahsher Zeldin.
 
 **Rosh Hashanah**         
 
-Thursday October 3rd        9:30 a.m.
+Tuesday September 23rd          9:00 a.m.
 
-Friday October 4th             9:30 a.m.
+Wednesday September 24th     9:00 a.m.
 
 **Yom Kippur**
 
-Friday October 11th           6:15 p.m.
+Wednesday October 1st            6:30 p.m.
 
-Saturday October 12th       9:30 a.m.
+Thursday October 2nd               9:00 a.m.
 
-Sunday October 12th         5:30 p.m.        
-
-
-
-
+Thursday October 2nd               5:00 p.m.        
 
 ### Associates
 
