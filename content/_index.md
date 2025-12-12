@@ -1,7 +1,7 @@
 ---
 title: Home
 extra:
-  date: 01-08-2025
+  date: 2025-01-08
 template: home/index.html
 ---
 ### Shabbat Services
