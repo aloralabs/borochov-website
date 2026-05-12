@@ -18,7 +18,7 @@ Borochov Cultural Centre and Kol Yisroel Congregation conduct services during Ro
 
 Our High Holiday services are led by Cantor Gary Zener and Ahsher Zeldin.
 
-**Rosh Hashanah**         
+**Rosh Hashanah 2026/5787**         
 
 Saturday September 12th          9:00 a.m.
 
@@ -30,7 +30,7 @@ Sunday September 20th            6:30 p.m.
 
 Monday September 21st           9:00 a.m.
 
-Monday September 22nd          5:00 p.m.        
+Monday September 21st          5:00 p.m.        
 
 ### Associates
 
