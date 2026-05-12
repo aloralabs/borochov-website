@@ -20,21 +20,21 @@ Our High Holiday services are led by Cantor Gary Zener and Ahsher Zeldin.
 
 **Rosh Hashanah**         
 
-Tuesday September 23rd          9:00 a.m.
+Saturday September 12th          9:00 a.m.
 
-Wednesday September 24th     9:00 a.m.
+Sunday September 13th            9:00 a.m.
 
 **Yom Kippur**
 
-Wednesday October 1st            6:30 p.m.
+Sunday September 20th            6:30 p.m.
 
-Thursday October 2nd               9:00 a.m.
+Monday September 21st           9:00 a.m.
 
-Thursday October 2nd               5:00 p.m.        
+Monday September 22nd          5:00 p.m.        
 
 ### Associates
 
-* Bingo is open! Check out the [Delta Bingo Gaming website](https://deltabingo.com/our-locations/downsview/). Did you know that funds raised from charity gaming go to support local charities? We are proud to be one of those charities.
+* Check out the [Delta Bingo Gaming website](https://deltabingo.com/our-locations/downsview/). Did you know that funds raised from charity gaming go to support local charities? We are proud to be one of those charities.
 * [Na'amat Canada Toronto](https://www.naamat.com)
 * [Camp Gesher](https://campgesher.com)
 * [ORT Toronto](https://ort-toronto.org)
