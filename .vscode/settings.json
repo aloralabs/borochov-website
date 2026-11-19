@@ -4,17 +4,12 @@
     "node_modules": true,
     "**/processed_images": true,
     "**/_gen": true,
-    "public": true
-  },
-  "search.exclude": {
+    "public": true,
     "static/*.css": true,
   },
   "files.associations": {
-    ".html": "handlebars",
+    ".html": "tera-html",
+    ".md": "tera-md",
     ".css": "tailwindcss"
   },
-  "[html][handlebars]": {
-    "editor.defaultFormatter": "monosans.djlint",
-    "editor.formatOnSave": true
-  }
 }

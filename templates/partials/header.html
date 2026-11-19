@@ -6,9 +6,9 @@
                     {% set meta = get_image_metadata(path='images/logo.svg') %}
                     <img src="{{ get_url(path='images/logo.svg') }}" alt="Logo" height="{{ meta.height }}" width="{{ meta.width }}" draggable="false" class="h-8 w-8">
                 </div>
-                {% if page.path %}
+                {% if page?.path %}
                 {% set path = page.path %}
-                {% elif section.path %}
+                {% elif section?.path %}
                 {% set path = section.path %}
                 {% else %}
                 {% set path = "" %}

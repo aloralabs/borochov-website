@@ -3,4 +3,4 @@ publish = "public"
 command = "npm run build"
 
 [build.environment]
-ZOLA_VERSION = "0.20.0"
+ZOLA_VERSION = "0.23.6"

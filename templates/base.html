@@ -1,5 +1,3 @@
-{% import 'macros/picture.html' as macros_picture %}
-{% import 'macros/rentals.html' as macros_rentals %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,17 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-    {% if page.description %}
+    {% if page?.description %}
     <meta name="description" content="{{ page.description }}">
-    {% elif section.description %}
+    {% elif section?.description %}
     <meta name="description" content="{{ section.description }}">
     {% elif config.description %}
     <meta name="description" content="{{ config.description }}">
     {% endif %}
 
-    {% if page.title %}
+    {% if page?.title %}
     <title>{{ page.title }} | {{ config.title }}</title>
-    {% elif section.title %}
+    {% elif section?.title %}
     <title>{{ section.title }} | {{ config.title }}</title>
     {% elif config.title %}
     <title>{{ config.title }}</title>

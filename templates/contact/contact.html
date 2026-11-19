@@ -6,7 +6,7 @@
     <div class="relative">
         <div class="relative md:overflow-hidden">
             <div class="absolute inset-0">
-                {{ macros_picture::picture(path=current_path~"map.png", width=3000, height=1500, loading="eager", class="h-full w-full object-cover") }}
+                {{ <picture path={current_path ~ "map.png"} width={3000} height={1500} loading="eager" class="h-full w-full object-cover" /> }}
                 <div class="absolute inset-0 bg-blue-800 mix-blend-multiply bg-opacity-90"></div>
             </div>
             <div class="container relative py-hero text-center">
@@ -29,7 +29,7 @@
 
     {% include "contact/partials/contact.html" %}
 
-    {{ macros_rentals::rentals() }}
+    {{ <rentals /> }}
 </main>
 
 {% endblock content %}
